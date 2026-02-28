@@ -1,6 +1,6 @@
 const user_grid_container = document.getElementById('userGrid')
 const sort_by_GridList = document.getElementById('viewToggleBtn')
-const ID_input = document.getElementById("deleteIdInput");
+const id_input = document.getElementById("deleteIdInput");
 const delete_btn = document.getElementById('deleteBtn')
 const sort_by_Group = document.getElementById('sortByGroupBtn')
 const sort_by_ID = document.getElementById('sortByIdBtn')
@@ -101,4 +101,5 @@ deleteBtn.addEventListener("click", async () => {
 
 
 retrieveData();
+
 
